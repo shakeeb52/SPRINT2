@@ -1,0 +1,58 @@
+<testsuite name="flipkart.login flipkart" tests="1" errors="0" failures="0" skipped="0" time="267.988311" timestamp="2022-11-08T16:30:59.313281" hostname="DESKTOP-F7LF85L"><testcase classname="flipkart.login flipkart" name="login data -- @1.1 " status="passed" time="267.988311"><system-out>
+<![CDATA[
+@scenario.begin
+  Scenario Outline: login data -- @1.1 
+    Given we navigate to flipkart homepage ... passed in 45.035s
+    When we click on the login button ... passed in 0.195s
+    Then we type in the "9606242790" edit box ... passed in 0.335s
+    And we type in the "9608506036" field ... passed in 0.257s
+    Then we click on the sign in button ... passed in 6.083s
+    Then type "mobiles" in search bar ... passed in 5.232s
+    And Click on search button ... passed in 5.098s
+    Then Check on Relevance is clickable ... passed in 5.167s
+    Then Check on popularity is clickable ... passed in 5.287s
+    Then Check on Price low-high is clickable ... passed in 5.129s
+    Then Check on Price high-low is clickable ... passed in 5.123s
+    Then Check on newest first is clickable ... passed in 5.117s
+    Then we validate filter text is present or not ... passed in 5.099s
+    And select the dropdown ... passed in 6.437s
+    And type "realme" in the search bar ... passed in 5.166s
+    And click on the checkbox ... passed in 5.121s
+    And click on the assured checkbox ... passed in 10.132s
+    And Click on ratings checkbox 4* above and 3* above ... passed in 10.292s
+    And Open GST link ... passed in 10.204s
+    And ram checkbox clicked ... passed in 20.465s
+    And internal storage checkbox clicked ... passed in 30.645s
+    And battery link is opened ... passed in 71.132s
+    And Get the first element on the page ... passed in 5.237s
+
+@scenario.end
+--------------------------------------------------------------------------------
+
+Captured stdout:
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+]]>
+</system-out></testcase></testsuite>

@@ -1,0 +1,59 @@
+<testsuite name="flipkart.login flipkart" tests="1" errors="0" failures="0" skipped="0" time="295.576329" timestamp="2022-11-08T17:28:49.113628" hostname="DESKTOP-F7LF85L"><testcase classname="flipkart.login flipkart" name="login data -- @1.1 " status="passed" time="295.576329"><system-out>
+<![CDATA[
+@scenario.begin
+  Scenario Outline: login data -- @1.1 
+    Given we navigate to flipkart homepage ... passed in 35.362s
+    When we click on the login button ... passed in 0.149s
+    Then we type in the "9606242790" edit box ... passed in 0.320s
+    And we type in the "9608506036" field ... passed in 0.191s
+    Then we click on the sign in button ... passed in 6.097s
+    Then type "mobiles" in search bar ... passed in 5.218s
+    And Click on search button ... passed in 5.111s
+    Then Check on Relevance is clickable ... passed in 5.180s
+    Then Check on popularity is clickable ... passed in 5.182s
+    Then Check on Price low-high is clickable ... passed in 5.159s
+    Then Check on Price high-low is clickable ... passed in 5.195s
+    Then Check on newest first is clickable ... passed in 5.156s
+    Then we validate filter text is present or not ... passed in 5.203s
+    And select the dropdown ... passed in 6.435s
+    And type "realme" in the search bar ... passed in 5.167s
+    And click on the checkbox ... passed in 5.149s
+    And click on the assured checkbox ... passed in 11.137s
+    And Click on ratings checkbox 4* above and 3* above ... passed in 46.780s
+    And Open GST link ... passed in 10.307s
+    And ram checkbox clicked ... passed in 20.618s
+    And internal storage checkbox clicked ... passed in 30.705s
+    And battery link is opened ... passed in 70.498s
+    And Get the first element on the page ... passed in 5.257s
+
+@scenario.end
+--------------------------------------------------------------------------------
+
+Captured stdout:
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+element not interactable or click intercepted
+
+
+
+
+
+
+
+
+]]>
+</system-out></testcase></testsuite>

@@ -1,6 +1,5 @@
 from selenium import webdriver
-from selenium.common.exceptions import NoSuchElementException, ElementClickInterceptedException, \
-    ElementNotInteractableException
+from selenium.common.exceptions import NoSuchElementException, ElementClickInterceptedException, ElementNotInteractableException
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.wait import WebDriverWait
 from webdriver_manager.chrome import ChromeDriverManager
